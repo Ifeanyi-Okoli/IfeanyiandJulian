@@ -14,8 +14,10 @@ background-color:white;}
 
 img{max-width: 100%}
 
-@media only screen and (max-width: 600px) {
-  body {
+body {background-color: lightgreen;}
+
+@media only screen and (max-width:320px)  { 
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ body {
     background-color: lightblue;
   }
 }
